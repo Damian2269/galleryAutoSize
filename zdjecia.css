@@ -1,0 +1,35 @@
+body
+{
+	overflow: auto;
+}
+
+.websiteContainer
+{
+	position: fixed;
+	top: 103px;
+	left: 0;
+	width: 100%;
+	height: auto;
+	transition: transform 1s cubic-bezier(0.9, 0, 0.1, 1),-webkit-transform 1s cubic-bezier(0.9, 0, 0.1, 1);
+	overflow: auto;
+	
+	display: inline-block;
+  justify-content: center;
+}
+
+
+.pictures
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pictures img
+{
+	cursor:url(cursorGlass.png), auto;
+	
+}
+
+
+
+
